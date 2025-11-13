@@ -36,6 +36,8 @@
 ### 数据集说明
 
 ### train.csv
+> 训练集。
+
 - uid: 用户ID；
 - episode_id: 单集ID；
 - tab_name: 标签页名称。标签页是APP的功能分类。例如：“发现”标签页是首屏打开的页面，“搜索”标签页包含与搜索相关的功能等；
@@ -46,6 +48,8 @@
 
 
 ### test.csv
+> 测试集。
+
 - id: 原始ID，用于提交；
 - uid: 同train.csv；
 - episode_id: 同train.csv；
@@ -57,7 +61,7 @@
 
 ### user_feature.csv
 
-`用户信息/特征。`
+> 用户信息/特征。
 
 - uid: 用户ID；
 - address: 位置；
@@ -71,7 +75,7 @@
 
 ### episodes_feature.csv
 
-`播客单集信息/特征。`
+> 播客单集信息/特征。
 
 - episdoe_id: 单集ID；
 - duration: 内容时长，单位毫秒（ms）；
@@ -84,6 +88,7 @@
 
 
 ### episode_additional.csv
+> 播客单集的额外信息。
 
 - episode_id: 单集ID；
 - title: 单集标题；
